@@ -5,8 +5,8 @@ import "../ERC1155C.sol";
 import "../../interfaces/ICreatorTokenWrapperERC1155.sol";
 import "../../interfaces/IEOARegistry.sol";
 import "../../utils/WithdrawETH.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol";
+import "../../../lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol";
+import "../../../lib/openzeppelin-contracts/contracts/token/ERC1155/utils/ERC1155Holder.sol";
 
 /**
  * @title ERC1155WrapperBase

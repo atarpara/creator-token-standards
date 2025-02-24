@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol";
 
 /**
  * @title IAdventure

@@ -3,7 +3,7 @@
 pragma solidity ^0.8.4;
 
 import "../../access/OwnablePermissions.sol";
-import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
+import "../../../lib/openzeppelin-contracts/contracts/token/ERC1155/ERC1155.sol";
 
 abstract contract ERC1155OpenZeppelinBase is ERC1155 {
 

@@ -3,8 +3,8 @@ pragma solidity ^0.8.4;
 
 import "./IAdventure.sol";
 import "../access/OwnablePermissions.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "../../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
+import "../../lib/openzeppelin-contracts/contracts/token/ERC721/IERC721.sol";
 
 /**
  * @title AdventureWhitelist

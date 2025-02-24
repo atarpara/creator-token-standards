@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 import "./ClaimPeriodBase.sol";
 import "./MaxSupply.sol";
-import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/cryptography/MerkleProof.sol";
 
 /**
  * @title MerkleWhitelistMint

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import "./ICloneableRoyaltyRightsERC721.sol";
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "../../../lib/openzeppelin-contracts/contracts/token/ERC721/ERC721.sol";
 
 contract RoyaltyRightsNFT is ERC721, ICloneableRoyaltyRightsERC721 {
 

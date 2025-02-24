@@ -2,9 +2,9 @@
 pragma solidity ^0.8.4;
 
 import "./helpers/ICloneableRoyaltyRightsERC721.sol";
-import "@openzeppelin/contracts/interfaces/IERC2981.sol";
-import "@openzeppelin/contracts/proxy/Clones.sol";
-import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+import "../../lib/openzeppelin-contracts/contracts/interfaces/IERC2981.sol";
+import "../../lib/openzeppelin-contracts/contracts/proxy/Clones.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol";
 
 abstract contract MinterRoyaltiesReassignableRightsNFT is IERC2981, ERC165 {
 

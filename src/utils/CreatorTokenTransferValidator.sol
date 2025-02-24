@@ -7,8 +7,8 @@ import "../interfaces/ITransferValidator.sol";
 import "./TransferPolicy.sol";
 import {CreatorTokenTransferValidatorConfiguration} from "./CreatorTokenTransferValidatorConfiguration.sol";
 import "@limitbreak/permit-c/PermitC.sol";
-import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
-import "@openzeppelin/contracts/utils/structs/EnumerableSet.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/structs/EnumerableSet.sol";
 import "@opensea/tstorish/Tstorish.sol";
 
 /**
