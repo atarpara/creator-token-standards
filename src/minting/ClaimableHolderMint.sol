@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 import "./ClaimPeriodBase.sol";
 import "./MaxSupply.sol";
-import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "../../lib/openzeppelin-contracts/contracts/token/ERC721/IERC721.sol";
 
 /**
  * @title ClaimableHolderMintBase

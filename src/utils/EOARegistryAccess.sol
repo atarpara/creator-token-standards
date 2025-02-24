@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import "../interfaces/IEOARegistry.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "../../lib/openzeppelin-contracts/contracts/access/Ownable.sol";
 
 /**
  * @title EOARegistryAccess

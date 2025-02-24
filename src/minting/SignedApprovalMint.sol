@@ -2,8 +2,8 @@
 pragma solidity ^0.8.4;
 
 import "./MaxSupply.sol";
-import "@openzeppelin/contracts/utils/cryptography/draft-EIP712.sol";
-import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/cryptography/draft-EIP712.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/cryptography/ECDSA.sol";
 
 /**
 * @title SignedApprovalMintBase

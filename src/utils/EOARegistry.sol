@@ -3,8 +3,8 @@
 pragma solidity ^0.8.4;
 
 import "../interfaces/IEOARegistry.sol";
-import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
-import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol";
+import "../../lib/openzeppelin-contracts/contracts/utils/cryptography/ECDSA.sol";
 
 /**
  * @title EOARegistry

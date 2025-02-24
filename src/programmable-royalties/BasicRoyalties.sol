@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts/token/common/ERC2981.sol";
+import "../../lib/openzeppelin-contracts/contracts/token/common/ERC2981.sol";
 
 /**
  * @title BasicRoyaltiesBase
